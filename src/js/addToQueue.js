@@ -1,5 +1,5 @@
 
-    export function addToQueue(movie) {
+    export default function addToQueue(movie) {
 
     const data = localStorage.getItem('queue')
     const queue = data === null ? [] : JSON.parse(data)// считываем значение, парсим

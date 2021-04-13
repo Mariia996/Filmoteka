@@ -1,5 +1,5 @@
 
- export function addToWatched(movie) {
+ export  function addToWatched(movie) {
 
   const data = localStorage.getItem('watched')
     const watched = data === null ? [] : JSON.parse(data)// считываем значение, парсим
